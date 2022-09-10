@@ -13,6 +13,10 @@
 		B1C945B228C43306009A5810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C945B028C43306009A5810 /* Main.storyboard */; };
 		B1C945B428C43307009A5810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C945B328C43307009A5810 /* Assets.xcassets */; };
 		B1C945B728C43307009A5810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C945B528C43307009A5810 /* LaunchScreen.storyboard */; };
+		B1C945BF28C43365009A5810 /* historikkTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C945BE28C43365009A5810 /* historikkTableVC.swift */; };
+		B1C945C128C433C4009A5810 /* historikkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C945C028C433C4009A5810 /* historikkCell.swift */; };
+		B1C945C328C43488009A5810 /* innstillingerTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C945C228C43488009A5810 /* innstillingerTableVC.swift */; };
+		B1C945C528C43498009A5810 /* innstillingerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C945C428C43498009A5810 /* innstillingerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B1C945B328C43307009A5810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1C945B628C43307009A5810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1C945B828C43307009A5810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C945BE28C43365009A5810 /* historikkTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historikkTableVC.swift; sourceTree = "<group>"; };
+		B1C945C028C433C4009A5810 /* historikkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historikkCell.swift; sourceTree = "<group>"; };
+		B1C945C228C43488009A5810 /* innstillingerTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = innstillingerTableVC.swift; sourceTree = "<group>"; };
+		B1C945C428C43498009A5810 /* innstillingerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = innstillingerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				B1C945AA28C43306009A5810 /* AppDelegate.swift */,
 				B1C945AC28C43306009A5810 /* SceneDelegate.swift */,
 				B1C945AE28C43306009A5810 /* ViewController.swift */,
+				B1C945BE28C43365009A5810 /* historikkTableVC.swift */,
+				B1C945C028C433C4009A5810 /* historikkCell.swift */,
 				B1C945B028C43306009A5810 /* Main.storyboard */,
 				B1C945B328C43307009A5810 /* Assets.xcassets */,
 				B1C945B528C43307009A5810 /* LaunchScreen.storyboard */,
 				B1C945B828C43307009A5810 /* Info.plist */,
+				B1C945C228C43488009A5810 /* innstillingerTableVC.swift */,
+				B1C945C428C43498009A5810 /* innstillingerCell.swift */,
 			);
 			path = miele_vaskemaskin;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C945C328C43488009A5810 /* innstillingerTableVC.swift in Sources */,
 				B1C945AF28C43306009A5810 /* ViewController.swift in Sources */,
+				B1C945C528C43498009A5810 /* innstillingerCell.swift in Sources */,
+				B1C945C128C433C4009A5810 /* historikkCell.swift in Sources */,
 				B1C945AB28C43306009A5810 /* AppDelegate.swift in Sources */,
+				B1C945BF28C43365009A5810 /* historikkTableVC.swift in Sources */,
 				B1C945AD28C43306009A5810 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
