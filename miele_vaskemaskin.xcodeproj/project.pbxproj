@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17DF5F76B78A5AE95ACF9021 /* Pods_miele_vaskemaskin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F2C7CF8DAE3BB3760ECA1D /* Pods_miele_vaskemaskin.framework */; };
 		B1C945AB28C43306009A5810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C945AA28C43306009A5810 /* AppDelegate.swift */; };
 		B1C945AD28C43306009A5810 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C945AC28C43306009A5810 /* SceneDelegate.swift */; };
 		B1C945AF28C43306009A5810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C945AE28C43306009A5810 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AC4D657D2BC736E2BD2FFCF /* Pods-miele_vaskemaskin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miele_vaskemaskin.release.xcconfig"; path = "Target Support Files/Pods-miele_vaskemaskin/Pods-miele_vaskemaskin.release.xcconfig"; sourceTree = "<group>"; };
 		B1C945A728C43306009A5810 /* miele_vaskemaskin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miele_vaskemaskin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C945AA28C43306009A5810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1C945AC28C43306009A5810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +34,8 @@
 		B1C945C028C433C4009A5810 /* historikkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historikkCell.swift; sourceTree = "<group>"; };
 		B1C945C228C43488009A5810 /* innstillingerTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = innstillingerTableVC.swift; sourceTree = "<group>"; };
 		B1C945C428C43498009A5810 /* innstillingerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = innstillingerCell.swift; sourceTree = "<group>"; };
+		CE2C622A57634A99B3DF4DA5 /* Pods-miele_vaskemaskin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miele_vaskemaskin.debug.xcconfig"; path = "Target Support Files/Pods-miele_vaskemaskin/Pods-miele_vaskemaskin.debug.xcconfig"; sourceTree = "<group>"; };
+		E3F2C7CF8DAE3BB3760ECA1D /* Pods_miele_vaskemaskin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_miele_vaskemaskin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DF5F76B78A5AE95ACF9021 /* Pods_miele_vaskemaskin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34CC25F84665F262395A7885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3F2C7CF8DAE3BB3760ECA1D /* Pods_miele_vaskemaskin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B1C9459E28C43306009A5810 = {
 			isa = PBXGroup;
 			children = (
 				B1C945A928C43306009A5810 /* miele_vaskemaskin */,
 				B1C945A828C43306009A5810 /* Products */,
+				D37DBCF2EFCC3741766352BD /* Pods */,
+				34CC25F84665F262395A7885 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +94,16 @@
 			path = miele_vaskemaskin;
 			sourceTree = "<group>";
 		};
+		D37DBCF2EFCC3741766352BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C622A57634A99B3DF4DA5 /* Pods-miele_vaskemaskin.debug.xcconfig */,
+				3AC4D657D2BC736E2BD2FFCF /* Pods-miele_vaskemaskin.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1C945BB28C43307009A5810 /* Build configuration list for PBXNativeTarget "miele_vaskemaskin" */;
 			buildPhases = (
+				0EC40763ACEC9683AC1D01C1 /* [CP] Check Pods Manifest.lock */,
 				B1C945A328C43306009A5810 /* Sources */,
 				B1C945A428C43306009A5810 /* Frameworks */,
 				B1C945A528C43306009A5810 /* Resources */,
+				744D83626EBBCC1A00685175 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC40763ACEC9683AC1D01C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-miele_vaskemaskin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		744D83626EBBCC1A00685175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-miele_vaskemaskin/Pods-miele_vaskemaskin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-miele_vaskemaskin/Pods-miele_vaskemaskin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-miele_vaskemaskin/Pods-miele_vaskemaskin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B1C945A328C43306009A5810 /* Sources */ = {
@@ -298,6 +367,7 @@
 		};
 		B1C945BC28C43307009A5810 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2C622A57634A99B3DF4DA5 /* Pods-miele_vaskemaskin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,6 +396,7 @@
 		};
 		B1C945BD28C43307009A5810 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC4D657D2BC736E2BD2FFCF /* Pods-miele_vaskemaskin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
